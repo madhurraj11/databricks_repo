@@ -1,0 +1,5 @@
+Hello, my name is Madhur Chauhan, I currently residing in Ghaziabad. 
+I had completed my Bachelor's of Technical from Rajasthan Technical University, Kota in 2022 and I have been working as a Survey Programmer at Dynata since January 2023. 
+In my current role, I specialize in developing and customizing dynamic, logic-driven survey workflows using platforms like Decipher. 
+My technical day-to-day involves engineering advanced survey logic, writing validation scripts, and customizing UIs using JavaScript, HTML, and CSS. 
+ 
