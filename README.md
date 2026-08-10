@@ -457,6 +457,27 @@ It returns a new DataFrame containing all rows from the first dataset that do no
 
 ## 🔄 Convert JSON File into Delta File
 
+```
+root
+ |-- user_id: long
+ |-- name: string
+ |-- email: string
+ |-- created_at: string
+ |-- address: struct
+ |    |-- street: string
+ |    |-- city: string
+ |    |-- state: string
+ |    |-- zip: string
+ |-- orders: array
+ |    |-- element: struct
+ |        |-- order_id: string
+ |        |-- amount: double
+ |        |-- items: array
+ |            |-- element: struct
+ |                |-- product_id: string
+ |                |-- quantity: long
+```
+
 ```python
 from pyspark.sql.functions import col, explode
 
